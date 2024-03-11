@@ -1348,7 +1348,7 @@ $(function () {
     }, "Piano > lobby", "/");
     channel_id = "lobby";
   }
-  var gClient = new Client('wss://mpp.autoplayer.space');
+  var gClient = new Client('wss://smnmpp.hri7566.info:8443');
   gClient.setChannel(channel_id);
 
   gClient.on("disconnect", function (evt) {
